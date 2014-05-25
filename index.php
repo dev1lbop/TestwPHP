@@ -1,18 +1,8 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-
-<meta name="date" content="2014-05-24T13:19:00-0500" >
-<meta name="copyright" content="TMIT World Limited">
-<meta name="keywords" content="Infinite Skills - php/MySQL Training">
-<meta name="description" content="Infinite Skills - php/MySQL Training">
-<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
-
-</head>
-<body>
 
 <?php
 	
+	echo '<h2 style="font-family: arial, helvetica, sans-serif;" >
+				Microgrid database Test
 			</h2>';
 	echo '<div align="left",
 				  style="
@@ -48,6 +38,3 @@
 
 ?>
 
-
-</body>
-</html>
