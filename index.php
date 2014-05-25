@@ -13,8 +13,6 @@
 
 <?php
 	
-	echo '<h2 style="font-family: arial, helvetica, sans-serif;" >
-				Infinite Skills - php/MySQL Training
 			</h2>';
 	echo '<div align="left",
 				  style="
