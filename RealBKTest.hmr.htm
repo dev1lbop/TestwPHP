@@ -1,0 +1,552 @@
+
+<!-- saved from url=(0090)file:///C:/Users/Lakim/Documents/FA13/Res/14Summer%20Research/HOMER%20TESTS/RealBKTest.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>System Report - RealBKTest.hmr</title>
+<style type="text/css">
+body {font-size: 9pt; font-family: Arial, sans-serif; background-color: white;}
+h1 {margin-top: 6; margin-bottom: 2; margin-left: 0; margin-right: 0; font-size: 14pt; font-weight: bold; font-family: Arial, sans-serif;}
+h2 {margin-top: 18; margin-bottom: 2; margin-left: 0; margin-right: 0; color: black; font-size: 12pt; font-weight: bold; font-family: Arial, sans-serif;}
+h3 {margin-top: 6; margin-bottom: 2; color: black; font-size: 10pt; font-weight: bold; font-family: Arial, sans-serif;}
+td {font-size: 9pt; font-family: Arial, sans-serif;}
+tr {font-size: 9pt; font-family: Arial, sans-serif;}
+th {font-size: 9pt; font-family: Arial, sans-serif; text-align: center; font-weight: bold; background-color: #E7ECF1; border-right: 1px solid gray; padding-left: 6px; padding-right: 6px; padding-top: 3px; padding-bottom: 3px;}
+th.data {font-size: 9pt; font-family: Arial, sans-serif; font-weight: bold; text-align: center; border-right: 1px solid gray; border-top: 1px solid gray; padding-left: 6px; padding-right: 6px; padding-top: 3px; padding-bottom: 3px;}
+th.text {font-size: 9pt; font-family: Arial, sans-serif; text-align: center; border-right: 1px solid gray; border-top: 1px solid gray; padding-left: 6px; padding-right: 6px; padding-top: 3px; padding-bottom: 3px;}
+p {font-size: 9pt; font-family: Arial, sans-serif;margin-top: 6; margin-bottom: 2;}
+table {margin-top: 4; margin-bottom: 4;}
+table.data {cellspacing=6; border-collapse: collapse; border: 1px solid gray;}
+td.data {font-size: 9pt; font-family: Arial, sans-serif; border-top: 1px solid gray; border-right: 1px solid gray; padding-left: 6px; padding-right: 6px; padding-top: 3px; padding-bottom: 3px;}
+td.datashaded {font-size: 9pt; font-family: Arial, sans-serif; background-color: #E7ECF1; border-top: 1px solid gray; border-right: 1px solid gray; padding-left: 6px; padding-right: 6px; padding-top: 3px; padding-bottom: 3px;}
+td.text {font-size: 9pt; font-family: Arial, sans-serif; border-top: 1px solid gray; border-right: 1px solid gray; padding-left: 6px; padding-right: 6px;	padding-top: 3px; padding-bottom: 3px;}
+</style>
+</head>
+
+<body>
+ 
+<h1>System Report - RealBKTest.hmr</h1>
+
+<h2>System architecture</h2>
+
+<table class="data">
+ <tbody><tr>
+  <td align="left">PV Array</td>
+  <td align="left">3 kW</td>
+ </tr>
+ <tr>
+  <td align="left">Battery</td>
+  <td align="left">3 Trojan L16P</td>
+ </tr>
+ <tr>
+  <td align="left">Inverter</td>
+  <td align="left">30 kW</td>
+ </tr>
+ <tr>
+  <td align="left">Rectifier</td>
+  <td align="left">30 kW</td>
+ </tr>
+</tbody></table>
+
+<h2>Cost summary</h2>
+
+<table class="data">
+ <tbody><tr>
+  <td align="left" class="data">Total net present cost</td>
+  <td align="right" class="data">$ 39,784</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Levelized cost of energy</td>
+  <td align="right" class="data">$ 1.580/kWh</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Operating cost</td>
+  <td align="right" class="data">$ 1,248/yr</td>
+ </tr>
+</tbody></table>
+
+<img src="./RealBKTest.hmr_files/CostSummary.png" width="550" height="250" alt="Cost summary graph">
+
+<h3>Net Present Costs</h3>
+
+<table class="data">
+ <tbody><tr>
+  <th rowspan="2" class="data">Component</th>
+  <th class="data">Capital</th>
+  <th class="data">Replacement</th>
+  <th class="data">O&amp;M</th>
+  <th class="data">Fuel</th>
+  <th class="data">Salvage</th>
+  <th class="data">Total</th>
+ </tr>
+ <tr>
+  <td align="center" class="datashaded">($)</td>
+  <td align="center" class="datashaded">($)</td>
+  <td align="center" class="datashaded">($)</td>
+  <td align="center" class="datashaded">($)</td>
+  <td align="center" class="datashaded">($)</td>
+  <td align="center" class="datashaded">($)</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">PV</td>
+  <td align="right" class="data">5,618</td>
+  <td align="right" class="data">0</td>
+  <td align="right" class="data">12,000</td>
+  <td align="right" class="data">0</td>
+  <td align="right" class="data">-660</td>
+  <td align="right" class="data">16,958</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Trojan L16P</td>
+  <td align="right" class="data">930</td>
+  <td align="right" class="data">3,720</td>
+  <td align="right" class="data">6,000</td>
+  <td align="right" class="data">0</td>
+  <td align="right" class="data">-96</td>
+  <td align="right" class="data">10,554</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Converter</td>
+  <td align="right" class="data">8,273</td>
+  <td align="right" class="data">7,500</td>
+  <td align="right" class="data">1,500</td>
+  <td align="right" class="data">0</td>
+  <td align="right" class="data">-5,000</td>
+  <td align="right" class="data">12,273</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">System</td>
+  <td align="right" class="data">14,820</td>
+  <td align="right" class="data">11,220</td>
+  <td align="right" class="data">19,500</td>
+  <td align="right" class="data">0</td>
+  <td align="right" class="data">-5,756</td>
+  <td align="right" class="data">39,784</td>
+ </tr>
+</tbody></table>
+
+<h3>Annualized Costs</h3>
+
+<table class="data">
+ <tbody><tr>
+  <th rowspan="2" class="data">Component</th>
+  <th class="data">Capital</th>
+  <th class="data">Replacement</th>
+  <th class="data">O&amp;M</th>
+  <th class="data">Fuel</th>
+  <th class="data">Salvage</th>
+  <th class="data">Total</th>
+ </tr>
+ <tr>
+  <td align="center" class="datashaded">($/yr)</td>
+  <td align="center" class="datashaded">($/yr)</td>
+  <td align="center" class="datashaded">($/yr)</td>
+  <td align="center" class="datashaded">($/yr)</td>
+  <td align="center" class="datashaded">($/yr)</td>
+  <td align="center" class="datashaded">($/yr)</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">PV</td>
+  <td align="right" class="data">281</td>
+  <td align="right" class="data">0</td>
+  <td align="right" class="data">600</td>
+  <td align="right" class="data">0</td>
+  <td align="right" class="data">-33</td>
+  <td align="right" class="data">848</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Trojan L16P</td>
+  <td align="right" class="data">47</td>
+  <td align="right" class="data">186</td>
+  <td align="right" class="data">300</td>
+  <td align="right" class="data">0</td>
+  <td align="right" class="data">-5</td>
+  <td align="right" class="data">528</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Converter</td>
+  <td align="right" class="data">414</td>
+  <td align="right" class="data">375</td>
+  <td align="right" class="data">75</td>
+  <td align="right" class="data">0</td>
+  <td align="right" class="data">-250</td>
+  <td align="right" class="data">614</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">System</td>
+  <td align="right" class="data">741</td>
+  <td align="right" class="data">561</td>
+  <td align="right" class="data">975</td>
+  <td align="right" class="data">0</td>
+  <td align="right" class="data">-288</td>
+  <td align="right" class="data">1,989</td>
+ </tr>
+</tbody></table>
+
+<img src="./RealBKTest.hmr_files/CashFlow.png" width="550" height="250" alt="Cash flow graph">
+
+<h2>Electrical</h2>
+
+<table class="data">
+ <tbody><tr>
+  <th rowspan="2" class="data">Component</th>
+  <th class="data">Production</th>
+  <th class="data">Fraction</th>
+ </tr>
+ <tr>
+  <td align="center" class="datashaded">(kWh/yr)</td>
+  <td align="center" class="datashaded"></td>
+ </tr>
+ <tr>
+  <td align="left" class="data">PV array</td>
+  <td align="right" class="data">4,511</td>
+  <td align="right" class="data">100%</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Total</td>
+  <td align="right" class="data">4,511</td>
+  <td align="right" class="data">100%</td>
+ </tr>
+</tbody></table>
+
+<img src="./RealBKTest.hmr_files/MonthlyAverageElectricProduction.png" width="430" height="140" alt="Monthly electrical production graph">
+
+<table class="data">
+ <tbody><tr>
+  <th rowspan="2" class="data">Load</th>
+  <th class="data">Consumption</th>
+  <th class="data">Fraction</th>
+ </tr>
+ <tr>
+  <td align="center" class="datashaded">(kWh/yr)</td>
+  <td align="center" class="datashaded"></td>
+ </tr>
+ <tr>
+  <td align="left" class="data">AC primary load</td>
+  <td align="right" class="data">1,259</td>
+  <td align="right" class="data">100%</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Total</td>
+  <td align="right" class="data">1,259</td>
+  <td align="right" class="data">100%</td>
+ </tr>
+</tbody></table>
+
+<table class="data">
+ <tbody><tr>
+  <th class="data">Quantity</th>
+  <th class="data">Value</th>
+  <th class="data">Units</th>
+ </tr>
+ <tr>
+  <td align="left" class="data">Excess electricity</td>
+  <td align="right" class="data">2,958</td>
+  <td align="right" class="data"> kWh/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Unmet load</td>
+  <td align="right" class="data">0.0987</td>
+  <td align="right" class="data"> kWh/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Capacity shortage</td>
+  <td align="right" class="data">0.189</td>
+  <td align="right" class="data"> kWh/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Renewable fraction</td>
+  <td align="right" class="data">1.000</td>
+  <td align="right" class="data"></td>
+ </tr>
+</tbody></table>
+
+<h2>PV</h2>
+
+<table class="data">
+ <tbody><tr>
+  <th class="data">Quantity</th>
+  <th class="data">Value</th>
+  <th class="data">Units</th>
+ </tr>
+ <tr>
+  <td align="left" class="data">Rated capacity</td>
+  <td align="right" class="data">3.00</td>
+  <td align="left" class="data"> kW</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Mean output</td>
+  <td align="right" class="data">0.515</td>
+  <td align="left" class="data"> kW</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Mean output</td>
+  <td align="right" class="data">12.4</td>
+  <td align="left" class="data"> kWh/d</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Capacity factor</td>
+  <td align="right" class="data">17.2</td>
+  <td align="left" class="data">%</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Total production</td>
+  <td align="right" class="data">4,511</td>
+  <td align="left" class="data">kWh/yr</td>
+ </tr>
+</tbody></table>
+
+<table class="data">
+ <tbody><tr>
+  <th class="data">Quantity</th>
+  <th class="data">Value</th>
+  <th class="data">Units</th>
+ </tr>
+ <tr>
+  <td align="left" class="data">Minimum output</td>
+  <td align="right" class="data">0.00</td>
+  <td align="left" class="data">kW</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Maximum output</td>
+  <td align="right" class="data">2.45</td>
+  <td align="left" class="data">kW</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">PV penetration</td>
+  <td align="right" class="data">358</td>
+  <td align="left" class="data">%</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Hours of operation</td>
+  <td align="right" class="data">4,369</td>
+  <td align="left" class="data">hr/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Levelized cost</td>
+  <td align="right" class="data">0.188</td>
+  <td align="left" class="data">$/kWh</td>
+ </tr>
+</tbody></table>
+
+<img src="./RealBKTest.hmr_files/PVOutput.png" width="500" height="140" alt="PV power output graph">
+
+<h2>Battery</h2>
+
+<table class="data">
+ <tbody><tr>
+  <th class="data">Quantity</th>
+  <th class="data">Value</th>
+ </tr>
+ <tr>
+  <td align="left" class="data">String size</td>
+  <td align="right" class="data">3</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Strings in parallel</td>
+  <td align="right" class="data">1</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Batteries</td>
+  <td align="right" class="data">3</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Bus voltage (V)</td>
+  <td align="right" class="data">18</td>
+ </tr>
+</tbody></table>
+
+<table class="data">
+ <tbody><tr>
+  <th class="data">Quantity</th>
+  <th class="data">Value</th>
+  <th class="data">Units</th>
+ </tr>
+ <tr>
+  <td align="left" class="data">Nominal capacity</td>
+  <td align="right" class="data">6.48</td>
+  <td align="left" class="data">kWh</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Usable nominal capacity</td>
+  <td align="right" class="data">4.54</td>
+  <td align="left" class="data">kWh</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Autonomy</td>
+  <td align="right" class="data">31.6</td>
+  <td align="left" class="data">hr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Lifetime throughput</td>
+  <td align="right" class="data">3,225</td>
+  <td align="left" class="data">kWh</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Battery wear cost</td>
+  <td align="right" class="data">0.313</td>
+  <td align="left" class="data">$/kWh</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Average energy cost</td>
+  <td align="right" class="data">0.000</td>
+  <td align="left" class="data">$/kWh</td>
+ </tr>
+</tbody></table>
+
+<table class="data">
+ <tbody><tr>
+  <th class="data">Quantity</th>
+  <th class="data">Value</th>
+  <th class="data">Units</th>
+ </tr>
+ <tr>
+  <td align="left" class="data">Energy in</td>
+  <td align="right" class="data">855</td>
+  <td align="left" class="data">kWh/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Energy out</td>
+  <td align="right" class="data">728</td>
+  <td align="left" class="data">kWh/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Storage depletion</td>
+  <td align="right" class="data">1.59</td>
+  <td align="left" class="data">kWh/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Losses</td>
+  <td align="right" class="data">125</td>
+  <td align="left" class="data">kWh/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Annual throughput</td>
+  <td align="right" class="data">790</td>
+  <td align="left" class="data">kWh/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Expected life</td>
+  <td align="right" class="data">4.08</td>
+  <td align="left" class="data">yr</td>
+ </tr>
+</tbody></table>
+
+<img src="./RealBKTest.hmr_files/BatterySOCPDF.png" width="230" height="140" alt="Battery state of charge histogram graph">
+
+<img src="./RealBKTest.hmr_files/BatterySOCMonthly.png" width="430" height="140" alt="Battery monthly state of charge graph">
+
+<img src="./RealBKTest.hmr_files/BatterySOCDMap.png" width="500" height="140" alt="Battery state of charge graph">
+
+<h2>Converter</h2>
+
+<table class="data">
+ <tbody><tr>
+  <th class="data">Quantity</th>
+  <th class="data">Inverter</th>
+  <th class="data">Rectifier</th>
+  <th class="data">Units</th>
+ </tr>
+ <tr>
+  <td align="left" class="data">Capacity</td>
+  <td align="right" class="data">30.0</td>
+  <td align="right" class="data">30.0</td>
+  <td align="left" class="data">kW</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Mean output</td>
+  <td align="right" class="data">0.1</td>
+  <td align="right" class="data">0.1</td>
+  <td align="left" class="data">kW</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Minimum output</td>
+  <td align="right" class="data">0.0</td>
+  <td align="right" class="data">0.0</td>
+  <td align="left" class="data">kW</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Maximum output</td>
+  <td align="right" class="data">0.3</td>
+  <td align="right" class="data">0.3</td>
+  <td align="left" class="data">kW</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Capacity factor</td>
+  <td align="right" class="data">0.2</td>
+  <td align="right" class="data">0.3</td>
+  <td align="left" class="data">%</td>
+ </tr>
+</tbody></table>
+
+<table class="data">
+ <tbody><tr>
+  <th class="data">Quantity</th>
+  <th class="data">Inverter</th>
+  <th class="data">Rectifier</th>
+  <th class="data">Units</th>
+ </tr>
+ <tr>
+  <td align="left" class="data">Hours of operation</td>
+  <td align="right" class="data">4,734</td>
+  <td align="right" class="data">4,024</td>
+  <td align="left" class="data">hrs/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Energy in</td>
+  <td align="right" class="data">728</td>
+  <td align="right" class="data">949</td>
+  <td align="left" class="data">kWh/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Energy out</td>
+  <td align="right" class="data">655</td>
+  <td align="right" class="data">855</td>
+  <td align="left" class="data">kWh/yr</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Losses</td>
+  <td align="right" class="data">73</td>
+  <td align="right" class="data">95</td>
+  <td align="left" class="data">kWh/yr</td>
+ </tr>
+</tbody></table>
+
+<img src="./RealBKTest.hmr_files/InverterOutputDMap.png" width="500" height="140" alt="Inverter power output graph">
+
+<img src="./RealBKTest.hmr_files/RectifierOutputDMap.png" width="500" height="140" alt="Rectifier power output graph">
+
+<h2>Emissions</h2>
+
+<table class="data">
+ <tbody><tr>
+  <th class="data">Pollutant</th>
+  <th class="data">Emissions (kg/yr)</th>
+ </tr>
+ <tr>
+  <td align="left" class="data">Carbon dioxide</td>
+  <td align="right" class="data">0</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Carbon monoxide</td>
+  <td align="right" class="data">0</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Unburned hydocarbons</td>
+  <td align="right" class="data">0</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Particulate matter</td>
+  <td align="right" class="data">0</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Sulfur dioxide</td>
+  <td align="right" class="data">0</td>
+ </tr>
+ <tr>
+  <td align="left" class="data">Nitrogen oxides</td>
+  <td align="right" class="data">0</td>
+ </tr>
+</tbody></table>
+
+
+
+</body></html>
