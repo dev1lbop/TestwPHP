@@ -27,7 +27,7 @@ if(!empty($same_page) && $same_page == 1) {
                     <td><a href="http://www.sonabel.bf/"style="text-decoration:none;">SONABEL</a>, <a href="http://www.sonabhy.bf/"style="text-decoration:none;">SONABHY</a></td>
                 </tr>
              </table>
-               <a href="../testwphp/BKstdinfoo.php" target="_blank">
+               <a href="BKstdinfoo.php" target="_blank">
          <input id="export-btn" type="button" value="Export as Excel"/>
         </a>
         <form method="POST" action="" target="_blank">
@@ -48,7 +48,7 @@ if(!empty($same_page) && $same_page == 1) {
                      <td><a href="../php/RealBKTest.hmr.htm"style="text-decoration:none;">Results from HOMER</a>
                 </tr>
              </table>
-                <a href="../testwphp/BKEnergyUse.php" target="_blank">
+                <a href="BKEnergyUse.php" target="_blank">
          <input id="export-btn" type="button" value="Export as Excel"/>
         </a>
         <form method="POST" action="" target="_blank">
@@ -68,7 +68,7 @@ if(!empty($same_page) && $same_page == 1) {
                     <td><a href="http://www.energies-renouvelables.org/Noria/docs/Burkina_Faso.pdf">Direct Link to Work</a></td>
                 </tr>
              </table>
-                <a href="../testwphp/PrecondWrk.php" target="_blank">
+                <a href="PrecondWrk.php" target="_blank">
          <input id="export-btn" type="button" value="Export as Excel"/>
         </a>
         <form method="POST" action="" target="_blank">
