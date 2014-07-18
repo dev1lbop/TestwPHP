@@ -45,7 +45,7 @@ if(!empty($same_page) && $same_page == 1) {
                     <td>Renewable Energy Outlook 2020</td>
                     <td>Embassy Phone: ,Email:</td>
                     <td><a href="http://www.sonabel.bf/"style="text-decoration:none;">SONABEL</a>, <a href="http://www.sonabhy.bf/"style="text-decoration:none;">SONABHY</a></td>
-                     <td><a href="../php/RealBKTest.hmr.htm"style="text-decoration:none;">Results from HOMER</a>
+                     <td><a href="../testwphp/RealBKTest.hmr.htm"style="text-decoration:none;">Results from HOMER</a>
                 </tr>
              </table>
                 <a href="BKEnergyUse.php" target="_blank">
@@ -74,13 +74,15 @@ if(!empty($same_page) && $same_page == 1) {
         <form method="POST" action="" target="_blank">
          <input type="hidden" name="same-page" value="3"/>
         </form>
+     
+        
            </body>
 <iframe height='300'width='500' 
 src='http://cartagen.org?fullscreen=true&gss=/static/rome/style.gss'
 style='border:0;'>
 </iframe>
   </html>
-
+ 
 <?php if(empty($same_page)): ?>
   //write whatever you want to hide in excel like export button,heading etc.
  <form method="POST" action="" target="_blank">

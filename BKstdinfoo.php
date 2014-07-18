@@ -20,10 +20,24 @@
                     <td><a href="http://www.sonabel.bf/"style="text-decoration:none;">SONABEL</a>, <a href="http://www.sonabhy.bf/"style="text-decoration:none;">SONABHY</a></td>
                 </tr>
              </table>
-            </html>
+            
   <a href="http://your_site_url.com/export_excel.php" target="_blank">
    <input id="export-btn" type="button" value="Export as Excel" onclick="export()"/>
   </a>
+  /* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #FFFFFF 0%, #1EA654 100%);
 
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #FFFFFF 0%, #1EA654 100%);
 
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #FFFFFF 0%, #1EA654 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #1EA654));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #FFFFFF 0%, #1EA654 100%);
+
+</html>
           
