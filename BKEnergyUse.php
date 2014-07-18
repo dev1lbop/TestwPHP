@@ -18,7 +18,7 @@
                     <td>Renewable Energy Outlook 2020</td>
                     <td>Embassy Phone: ,Email:</td>
                     <td><a href="http://www.sonabel.bf/"style="text-decoration:none;">SONABEL</a>, <a href="http://www.sonabhy.bf/"style="text-decoration:none;">SONABHY</a></td>
-                    <td><a href="../testwphp/RealBKTest.hmr.htm"style="text-decoration:none;">Results from HOMER</a>
+                    <td><a href="RealBKTest.hmr.htm"style="text-decoration:none;">Results from HOMER</a>
                 </tr>
              </table>
             </html>
