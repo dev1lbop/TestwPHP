@@ -21,7 +21,8 @@ if(!empty($same_page) && $same_page == 1) {
                 <th>Population</th><th>Policies</th><th>Points of Contact</th><th>Companies in Energy</th>
             </tr>
                 <tr>
-                    <td><a href="http://data.worldbank.org/country/burkina-faso"style="text-decoration:none;">17,256,568</a></td>
+                <td><a href="tableview.aspx">16,934,839 (2013)</a></td>
+                    <td><a href="http://search.worldbank.org/quickview?name=Rural+%3Cem%3Epopulation%3C%2Fem%3E&id=SP.RUR.TOTL&type=Indicators&cube_no=2&qterm=burkina+faso+population"style="text-decoration:none;">16,934,839 (2013)</a></td>
                     <td>Renewable Energy Outlook 2020</td>
                     <td>Embassy Phone: ,Email;</td>
                     <td><a href="http://www.sonabel.bf/"style="text-decoration:none;">SONABEL</a>, <a href="http://www.sonabhy.bf/"style="text-decoration:none;">SONABHY</a></td>

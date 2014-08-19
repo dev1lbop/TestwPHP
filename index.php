@@ -34,9 +34,8 @@
 <select name="list" id="list" accesskey="target">
     <option value='none' selected>Select a Country</option>
     <option value="burkinafaso2.php">Burkina Faso</option>
-    <option value="ex1.php">Example2</option>
-    <option value="ex2.php">Example3</option>
-    <option value="ex4.html">Blob of CSV info</option>
+    <option value="ex2.php">Example3 Export</option>
+   <!-- <option value="ex4.html">Blob of CSV info</option>-->
     <option value="ex5.html">Example5</option>
     <option value="BKMap.htm">map</option>
     <option value="map2.htm">map 2</option>
