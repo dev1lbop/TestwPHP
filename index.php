@@ -8,27 +8,21 @@ check_logged(); /// function checks if visitor is logged.
 <head>
 <style>
 body {
-    background: url(cat.jpg), url(cat.jpg);
+    background: url(2.jpg), url(2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 </style>
 <body>
-<h3>Welcome to RAMIR!</h3>
+<h3>
+<center>
+<p style="text-shadow:2px 2px 8px orange;">Welcome to RAMIR!</p></h3>
+<h3> <p style="text-shadow:2px 2px 8px orange;">Rural Area Microgrid Implementation Repository!</p>
 </head>
-<div id="grad3"></div>
-<!--<div style="opacity:0.5;position:absolute;left:50px;width:300px;height:150px;background-color:#40B3DF;"></div>-->
-<div style="font-family:verdana;padding:20px;border-radius:10px;border:10px solid #EE872A;">
-<br>
-</br>
-
 <div style="letter-spacing:12px;"></div>
-<div style="color:#40B3DF;"> <span style="background-color:#B4009E;color:#ffffff;"></span></div>
 <div style="color:#000000;"></div>
 <br>
 </br>
-
-<div id="container" style="width:9px;letter-spacing:5695823x;">
 <div id="header">
 <h1 style="margin-bottom:0;">Select Your Country of Interest</h1></div>
 
@@ -57,9 +51,7 @@ body {
 <input type=button value="Go" onclick="goToNewPage()" />
 <br>
 </br>
-
-</table>
-
+</center>
 </body>
 </html>
 

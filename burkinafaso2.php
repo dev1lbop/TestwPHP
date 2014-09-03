@@ -15,7 +15,7 @@ if(!empty($same_page) && $same_page == 1) {
     <body>
     <style>
 body {
-    background: url(burkina_faso.jpg), url(burkina_faso.jpg);
+    background: url(2.jpg), url(2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -64,7 +64,7 @@ body {
         <!----Next table--->
              <br></br>
              <h1> Previously Conducted Work </h1>
-            <table border=1 style="border-collapse:collapse;">
+            <table border=1 background="3.jpg">
             <tr>
                 <th>Title of Work</th><th>Institution/Organization</th><th>Author</th><th>Publication Site</th>
             </tr>
@@ -82,15 +82,4 @@ body {
          <input type="hidden" name="same-page" value="3"/>
         </form>
         </body>
-<!--<iframe height='300'width='500' 
-src='http://cartagen.org?fullscreen=true&gss=/static/rome/style.gss'
-style='border:0;'>
-</iframe>-->
   </html>
- <?php if(empty($same_page)): ?>
-  //write whatever you want to hide in excel like export button,heading etc.
- <form method="POST" action="" target="_blank">
-  <input type="hidden" name="same-page" value="1"/>
-  <input id="export-btn" type="submit" value="Export as Excel on Form Submit"/>  </form>
-<?php endif; ?>
- 
