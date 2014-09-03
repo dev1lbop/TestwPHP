@@ -1,15 +1,27 @@
+<?php
+session_start(); /// initialize session
+include("passwords.php");
+check_logged(); /// function checks if visitor is logged.
+//If user is not logged the user is redirected to login.php page 
+?>
 <html>
 <head>
+<style>
+body {
+    background: url(cat.jpg), url(cat.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+</style>
 <body>
-
-<div style="opacity:0.5;position:absolute;left:50px;width:300px;height:150px;background-color:#40B3DF;"></div>
-
+<h3>Welcome to RAMIR!</h3>
+</head>
+<div id="grad3"></div>
+<!--<div style="opacity:0.5;position:absolute;left:50px;width:300px;height:150px;background-color:#40B3DF;"></div>-->
 <div style="font-family:verdana;padding:20px;border-radius:10px;border:10px solid #EE872A;">
-
 <br>
 </br>
 
-<h3></h3>
 <div style="letter-spacing:12px;"></div>
 <div style="color:#40B3DF;"> <span style="background-color:#B4009E;color:#ffffff;"></span></div>
 <div style="color:#000000;"></div>

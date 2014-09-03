@@ -1,8 +1,6 @@
 <?php
 //Actual code that works -----http://stackoverflow.com/questions/16425270/html-to-excel-export-with-xls-extension-in-javascript-or-php
 //////------- http://elavarasanlee.in/php/
-
-
 $same_page = $_POST['same-page'];
 if(!empty($same_page) && $same_page == 1) {
   $filename = 'Sample Table';
@@ -15,6 +13,13 @@ if(!empty($same_page) && $same_page == 1) {
         <h1> Standard Info</h1>
     </head>
     <body>
+    <style>
+body {
+    background: url(burkina_faso.jpg), url(burkina_faso.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+</style>
             <h1></h1>
             <table border=1 style="border-collapse:collapse;">
             <tr>
@@ -76,16 +81,13 @@ if(!empty($same_page) && $same_page == 1) {
         <form method="POST" action="" target="_blank">
          <input type="hidden" name="same-page" value="3"/>
         </form>
-     
-        
-           </body>
-<iframe height='300'width='500' 
+        </body>
+<!--<iframe height='300'width='500' 
 src='http://cartagen.org?fullscreen=true&gss=/static/rome/style.gss'
 style='border:0;'>
-</iframe>
+</iframe>-->
   </html>
- 
-<?php if(empty($same_page)): ?>
+ <?php if(empty($same_page)): ?>
   //write whatever you want to hide in excel like export button,heading etc.
  <form method="POST" action="" target="_blank">
   <input type="hidden" name="same-page" value="1"/>
