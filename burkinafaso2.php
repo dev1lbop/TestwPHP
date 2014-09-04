@@ -27,7 +27,6 @@ body {
             </tr>
                 <tr>
                     <td><a href="http://data.worldbank.org/indicator/SP.POP.TOTL/countries/BF?display=graph">16,934,839 (2013)</a></td>
-                    <!--<td><a href="http://search.worldbank.org/quickview?name=Rural+%3Cem%3Epopulation%3C%2Fem%3E&id=SP.RUR.TOTL&type=Indicators&cube_no=2&qterm=burkina+faso+population"style="text-decoration:none;">16,934,839 (2013)</a></td>-->
                     <td><a href="http://web.worldbank.org/WBSITE/EXTERNAL/COUNTRIES/AFRICAEXT/EXTAFRREGTOPENERGY/0,,contentMDK:22500298~menuPK:8913746~pagePK:34004173~piPK:34003707~theSitePK:717306,00.html"style="text-decoration:none;">Africa Renewable Energy and Access program (AFREA)</a>, <a href="http://www.ecreee.org/"style="text-decoration:none;">Excellence of the Economic Community for West African States (ECOWAS) Centre for Renewable Energy and Energy Efficiency (ECREEE)</a></td>
                     <td>Embassy Phone: ,Email;</td>
                     <td><a href="http://www.sonabel.bf/"style="text-decoration:none;">SONABEL</a></td>
@@ -51,7 +50,7 @@ body {
                     <td><a href="http://data.worldbank.org/country/burkina-faso"style="text-decoration:none;">Numbers#####</a></td>
                     <td>Numbers#####</td>
                     <td>Diesel, Hydropower, Wind, Solar</td> <!--Create links that go to sonabels site or the gis map?-->
-                    <td><a href="http://www.sonabel.bf/"style="text-decoration:none;">SONABEL</a>, <a href="http://www.sonabhy.bf/"style="text-decoration:none;">SONABHY</a></td>
+                    <td><a href="http://www.sonabel.bf/"style="text-decoration:none;">Maps</a>, <a href="http://www.sonabhy.bf/"style="text-decoration:none;">SONABHY</a></td>
                      <td><a href="RealBKTest.hmr.htm"style="text-decoration:none;">Results from HOMER</a>
                 </tr>
              </table>
